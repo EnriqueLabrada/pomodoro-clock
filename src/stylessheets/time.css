@@ -1,0 +1,126 @@
+.tiempo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+}
+
+
+.controls {
+    justify-content: center;
+    align-items: center;
+}
+
+.bi-caret-right-fill , .bi-pause , .bi-arrow-clockwise {
+    font-size: 50px;
+}
+
+.btn {
+    background-color: rgb(32, 31, 31);
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+
+.btn-primary:hover{
+    border-color: rgb(32, 31, 31);
+    color: greenyellow;
+    background-color:rgb(32, 31, 31);
+    transition: all ease 0.3s;
+}
+
+.controls .btn {
+    margin: 20px;
+}
+
+.control-time {
+    color: greenyellow;
+}
+
+.text-c {
+    flex-direction: column;
+}
+
+.length {
+    color: rgb(157, 150, 150);
+}
+
+.duration {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+
+.duration p {
+    margin: 1%;
+}
+ 
+.session {
+    margin: 1%;
+    width: 20%;
+}
+
+.session .btn {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.break {
+    margin: 1%;
+    width: 20%;
+}
+
+.break .btn {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.timeProgresion {
+    font-size: 200px;
+    color: rgb(153, 156, 158);
+}
+
+@media(max-width:950px) {
+
+    .tiempo{
+        padding-top: 40%;
+    }
+
+    .timeProgresion {
+        font-size: 100px;
+        color: rgb(153, 156, 158);
+    }
+
+    .bi-caret-right-fill , .bi-pause , .bi-arrow-clockwise {
+        font-size: 30px;
+    }
+
+
+    .session {
+        margin: 1%;
+        font-size: 15px;
+        width: 45%;
+    }
+    
+    .session .btn {
+        font-size: 15px;
+    }
+    
+
+    .break {
+        margin: 1%;
+        font-size: 15px;
+        width: 45%;
+    }
+    
+    .break .btn {
+        font-size: 15px;
+    }
+
+    .duration {
+        align-items: center;
+        justify-content: center;
+    }
+
+}
