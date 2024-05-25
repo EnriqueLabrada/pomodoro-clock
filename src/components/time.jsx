@@ -93,10 +93,12 @@ function Tiempo () {
     }
 
     const restarFun = () => {
-        setStart(false)
-        setTime(25*60*1000)
-        setDescanso(5*60*1000)
-        setCorriendo(true)
+        if(start === false) {
+            setTime(25*60*1000)
+            setDescanso(5*60*1000)
+            setCorriendo(true)
+        }
+        
     }
 
 
